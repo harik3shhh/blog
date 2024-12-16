@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Fira+Code:wght@300..700&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  background: rgb(27, 25, 25);
+}
+
+.small-toast {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 8px;
+    min-height: 20px !important; /* Further reduce height */
+    border-radius: 10px !important; /* Smaller rounded corners */
+    padding: 5px 10px !important; /* Reduce padding */
+    font-size: 0.7rem !important; /* Smaller text */
+    width: 200px !important; /* Adjust width */
+  }
+  
+  .small-toast-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.7rem !important; /* Smaller text size */
+    line-height: 1rem; /* Reduce line height */
+  }
+  
+
+
+/* styles.css */
+p a {
+  color: blue;
+  text-decoration: underline;
+}
+
+
+/* Target only links within paragraphs in a specific blog container */
+.blog-content p a {
+  color: blue;
+  text-decoration: underline;
+}
+
+
+
+body.light-theme {
+  background-color: rgb(235, 238, 243);
+  color: black; /* Optional: Set text color for better readability */
+}
